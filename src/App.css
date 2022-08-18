@@ -1,0 +1,15 @@
+.App {
+  width: max-content;
+  margin: auto;
+}
+
+.main-heading {
+  text-align: center;
+}
+
+.table-layout {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0 50px;
+  place-items: center;
+}
